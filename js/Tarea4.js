@@ -27,4 +27,26 @@ const SumaRecursivaImPares = (numero) => {
     SumaRecursivaImPares(  numero + 2);
 }
 
-RestaRecursiva(1000);
+// Obtener el promedio de notas de un alumno, considerando que la suma de notas debe ser
+// el retorno de una funcion y el promedio el retorno de otra funcion
+
+const SumaNotas = (numero) => {
+   suma = 0;
+   for( nota of numero){
+    suma = suma + nota;
+   }      
+    return suma;
+
+}
+const promedioNotas = (numero) => {
+promedio = 0;
+promedio = numero/6;
+return promedio;
+
+} 
+
+const array = [6,8,9,2,5,10];
+numero = SumaNotas(array);
+console.log(SumaNotas(array));
+console.log(promedioNotas(numero));
+
