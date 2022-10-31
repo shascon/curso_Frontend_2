@@ -47,6 +47,7 @@ return promedio;
 
 const array = [6,8,9,2,5,10];
 numero = SumaNotas(array);
-console.log(SumaNotas(array));
-console.log(promedioNotas(numero));
+console.log("Notas Alumno " + array)
+console.log("Suma de Notas" + SumaNotas(array));
+console.log("Promedio de Notas" + promedioNotas(numero));
 
